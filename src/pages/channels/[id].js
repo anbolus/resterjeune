@@ -1,4 +1,4 @@
-import { getPlaylist, getChannelInfo } from "./utils/youtube";
+import { getPlaylist, getChannelInfo } from "../utils/youtube";
 import { useState, useRef } from "react";
 import classNames from "classnames";
 import { formatDistance } from "date-fns";
